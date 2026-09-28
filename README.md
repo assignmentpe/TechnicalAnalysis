@@ -41,8 +41,11 @@ Assignment2/
 ## How to run the project
 
 1. Open **RStudio**.
-2. `File > Open File…` and choose `Assignment2/R/03_run_analysis.R`.
-3. Click the **Source** button (top right) to run the whole script.
+2. `File > Open Project…` and choose `Assignment2/Assignment2.Rproj`.
+   (Opening the *project* sets the working folder to `Assignment2/`, which is
+   what makes all the relative paths in the scripts work.)
+3. Open `R/01_install_packages.R` and click **Source** once, to install the packages.
+4. Open `R/03_run_analysis.R` and click **Source** to run the whole analysis.
 
 The script does everything by itself: it reads `portfolio.txt`, downloads
 the data, calculates the statistics, prints the output and saves the charts.
