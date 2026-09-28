@@ -1,0 +1,19 @@
+# ---- R / RStudio temporary files -------------------------------------
+.Rhistory
+.RData
+.Rproj.user/
+.Rproj.user/
+
+# ---- R Markdown output ------------------------------------------------
+*.html
+*.nb.html
+
+# ---- Windows / editor junk -------------------------------------------
+Thumbs.db
+desktop.ini
+~$*.docx
+~$*.xlsx
+
+# ---- Large or unnecessary files --------------------------------------
+*.zip
+*.tmp
